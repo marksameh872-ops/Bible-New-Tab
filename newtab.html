@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Bible New Tab</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="glow glow1"></div><div class="glow glow2"></div>
+<main>
+  <section class="verse-card">
+    <div class="topline"><span class="cross">✝</span><span>كلمة اليوم</span></div>
+    <div id="verse" class="verse">جاري تحميل الآية...</div>
+    <div id="ref" class="ref"></div>
+    <button id="next" type="button">آية أخرى <span>↻</span></button>
+  </section>
+  <form class="search" action="https://www.google.com/search" method="GET">
+    <span class="search-icon">⌕</span>
+    <input id="search" name="q" type="search" placeholder="ابحث في Google..." autocomplete="off" autofocus>
+    <kbd>Enter</kbd>
+  </form>
+  <div class="footer">✦ كلمة الله تنير الطريق ✦</div>
+</main>
+<script src="verses.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
