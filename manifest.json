@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Bible New Tab",
+  "version": "1.0.0",
+  "description": "A beautiful Bible verse appears above your search box every time you open a new tab.",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": []
+}
